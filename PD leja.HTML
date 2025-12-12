@@ -1,0 +1,62 @@
+
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>PD Leja ar DIV</title>
+
+<style>
+  /* Konteiners ar trim kolonnām */
+  #container {
+    display: flex;
+    width: 100%;
+    height: 100vh; /* aizņem visu augstumu */
+  }
+
+  /* Kreisā puse – 20% */
+  #left {
+    width: 20%;
+    background-color: #e6f0ff;
+    border-right: 2px solid #c2d6f8;
+  }
+
+  /* Vidus – 60% */
+  #middle {
+    width: 60%;
+    background-color: #ffffff;
+    border-right: 2px solid #c2d6f8;
+  }
+
+  /* Labā puse – 20% */
+  #right {
+    width: 20%;
+    background-color: #f0f7ff;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+</style>
+</head>
+
+<body>
+<div id="container">
+
+  <div id="left">
+    <iframe src="PD kreisa puse.HTML"></iframe>
+  </div>
+
+  <div id="middle">
+    <iframe src="PD 1.LAPA.HTML" name="vidus"></iframe>
+  </div>
+
+  <div id="right">
+    <iframe src="PD laba puse.HTML"></iframe>
+  </div>
+
+</div>
+</body>
+
+</html>
